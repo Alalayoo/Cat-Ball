@@ -15,5 +15,16 @@
       ```
     * 响应报文：
       ```xml
-      <methode>
+      <version> <status> <reason-phrase>
+      <headers>
+
+      <entity-body>
       ```
+* 方法：
+  > GET、HEAD、PUT、POST、TRACE、OPTIONS、DELETE以及一些扩展方法
+
+* 状态码：
+  | 状态码 | 含义 |
+  | :-: | :-:|
+  | 100~199(100&101)|信息性状态码|
+  |200~299|成功状态码
